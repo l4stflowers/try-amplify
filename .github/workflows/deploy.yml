@@ -17,8 +17,6 @@ jobs:
           node-version-file: 'package.json'
           cache: npm
 
-      - uses: volta-cli/action@v4
-
       - run: npm ci
 
       - run: npm install -g @aws-amplify/cli
