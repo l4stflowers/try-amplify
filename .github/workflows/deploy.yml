@@ -28,6 +28,4 @@ jobs:
 
       - run: aws sts get-caller-identity
 
-      - run: amplify pull --yes
-
-      - run: amplify status
+      - run: amplify publish
